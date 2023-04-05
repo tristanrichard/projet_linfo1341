@@ -34,6 +34,6 @@ for address, count in sorted_dest_addresses[:10]:
 # Créer le graphe
 plt.pie(values, labels=labels, autopct='%1.1f%%')
 plt.axis('equal')
-plt.savefig("graphe_des_requetes.jpg",dpi=300)
+plt.savefig("graphe_des_requetes.jpg",dpi=1000)
 plt.show()
 capture.close()
