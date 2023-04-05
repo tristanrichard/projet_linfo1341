@@ -33,8 +33,7 @@ for address, count in sorted_dest_addresses[:10]:
 
 # Créer le graphe
 plt.pie(values, labels=labels, autopct='%1.1f%%')
-plt.title('Destinations les plus fréquentes')
 plt.axis('equal')
+plt.savefig("graphe_des_requetes.jpg",dpi=300)
 plt.show()
-plt.savefig("graphe_des_requetes.png")
 capture.close()
